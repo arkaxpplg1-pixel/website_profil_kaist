@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Selamat datang di website resmi KAIST - Korea Advanced Institute of Science and Technology.">
+    <title>카이스트 대학교-University of Kaist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="25%" align="left">
+                        <img src="image/logo_kaist.jpg" alt="Logo Resmi KAIST" width="250" height="150">
+                    </td>
+
+                    <td width="50%" align="center">
+                        <font size="7"><b>KAIST 대학교</b></font><br>
+                        <font size="4">한국과학기술원</font>
+                    </td>
+
+                    <td width="25%" align="right">
+                        <div class="language-control">
+                            <span class="language-icon" aria-hidden="true">◎</span>
+                            <label for="language-select">언어</label>
+                            <select id="language-select" aria-label="언어 선택">
+                                <option value="ko">한국어</option>
+                                <option value="en">English</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <nav>
+                <table width="60%" border="0">
+                    <tr>
+                        <td align="center"><a href="index.html">홈</a></td>
+                        <td align="center"><a href="profil.html">회사 소개</a></td>
+                        <td align="center"><a href="jurusan.html">비전과 미션</a></td>
+                        <td align="center"><a href="kontak.html">연락처</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </center>
+    </header>
+
+    <hr>
+
+    <main>
+        <center>
+            <br>
+            <font size="6"><b>문의 및 연락</b></font>
+            <br>
+            <font size="3">KAIST에 대한 더 자세한 정보를 위해 아래 양식을 작성하세요</font>
+            <br><br>
+
+            <table width="1200" border="0" cellpadding="20" cellspacing="0">
+                <tr>
+                    <td width="60%" valign="top" bgcolor="white" style="border: 1px solid gray;">
+                        <font size="5" color="royalblue"><b>등록 관심 양식</b></font>
+                        <hr align="left" width="50" color="royalblue">
+                        <br>
+
+                        <form>
+                            <table width="100%" border="0" cellpadding="10">
+                                <tr>
+                                    <td>성명:</td>
+                                    <td><input type="text" name="nama" size="40"></td>
+                                </tr>
+                                <tr>
+                                    <td>활성 이메일:</td>
+                                    <td><input type="email" name="email" size="40"></td>
+                                </tr>
+                                <tr>
+                                    <td>학교 출신:</td>
+                                    <td><input type="text" name="sekolah" size="40"></td>
+                                </tr>
+                                <tr>
+                                    <td>인기 전공:</td>
+                                    <td>
+                                        <select name="jurusan">
+                                            <option>-- 전공 선택 --</option>
+                                            <option>공학</option>
+                                            <option>자연과학</option>
+                                            <option>비즈니스</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">메시지/질문:</td>
+                                    <td><textarea name="pesan" rows="5" cols="31"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" value="Kirim Data">
+                                        <input type="reset" value="Hapus">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </td>
+
+                    <td width="40%" valign="top" bgcolor="lightgrey">
+                        <font size="4"><b>2026 장학금 정보</b></font><br>
+                        <hr align="left" width="30" color="black">
+                        <ul>
+                            <li><b>KAIST 국제 학생 장학금:</b> 전액 장학금과 월간 수당.</li>
+                            <li><b>GKS(글로벌 코리아 장학금):</b> 외국인 학생을 위한 한국 정부 장학금.
+                            </li>
+                        </ul>
+
+                        <br>
+
+                        <font size="4"><b>소셜 미디어 및 연락처</b></font><br>
+                        <hr align="left" width="30" color="black">
+                        <p>
+                            <b>주소:</b><br>
+                            대한민국 대전광역시 유성구 대학로
+                        </p>
+                        <p>
+                            <b>이메일:</b> admission@kaist.ac.kr<br>
+                            <b>전화:</b> +82-42-350-2114
+                        </p>
+                        <p>
+                            <b>소셜 미디어:</b><br>
+                            인스타그램: <code>@kaist_official</code><br>
+                            유튜브: <code>KAIST Univercity</code>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+
+            <table width="100%" bgcolor="black" cellpadding="20" border="0">
+                <tr>
+                    <td align="center">
+                        <font color="white" size="2">
+                          <p>&copy; 2026 KAIST 대학 프로필 개념. 모든 권리 보장.</p> - <del>KAIST 오래된 페이지</del>
+                        </font>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </main>
+    <script src="script.js" defer></script>
+</body>
